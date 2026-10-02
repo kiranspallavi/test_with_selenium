@@ -31,7 +31,7 @@ public void tearDown() {
 @Test
 public void testlogging() throws InterruptedException{
 
-    Thread.sleep(3000);
+    Thread.sleep(1000);
 
     WebElement username = driver.findElement(By.name("username"));
     username.sendKeys("practice");
